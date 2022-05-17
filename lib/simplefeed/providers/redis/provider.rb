@@ -33,9 +33,9 @@ module SimpleFeed
 
         include Driver
 
-        def store(user_ids:, value:, at: Time.now)
+        def store(user_ids:, value:, at: Time.now, overwrite: true)
           with_response_pipelined(user_ids) do |redis, key|
-            tap redis.zadd(key.data, at.to_f, value) do
+            tap redis.zadd(key.data, at.to_f, value, nx: !overwrite) do
               redis.zremrangebyrank(key.data, 0, -feed.max_size - 1)
             end
           end

@@ -1,0 +1,197 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<=>	lib/simplefeed/event.rb	/^    def <=>(other)$/;"	f	class:SimpleFeed
+==	lib/simplefeed/event.rb	/^    def ==(other)$/;"	f	class:SimpleFeed
+Activities	lib/simplefeed/dsl/activities.rb	/^    class Activities$/;"	c	class:SimpleFeed.DSL
+Activity	lib/simplefeed/activity/base.rb	/^  module Activity$/;"	m	class:SimpleFeed
+Activity	lib/simplefeed/activity/multi_user.rb	/^  module Activity$/;"	m	class:SimpleFeed
+Activity	lib/simplefeed/activity/single_user.rb	/^  module Activity$/;"	m	class:SimpleFeed
+Base	lib/simplefeed/activity/base.rb	/^    class Base$/;"	c	class:SimpleFeed.Activity
+Base	lib/simplefeed/providers/base/provider.rb	/^    module Base$/;"	m	class:SimpleFeed.Providers
+DSL	lib/simplefeed/dsl.rb	/^  module DSL$/;"	m	class:SimpleFeed
+DSL	lib/simplefeed/dsl/activities.rb	/^  module DSL$/;"	m	class:SimpleFeed
+DSL	lib/simplefeed/dsl/formatter.rb	/^  module DSL$/;"	m	class:SimpleFeed
+Driver	lib/simplefeed/providers/redis/driver.rb	/^      module Driver$/;"	m	class:SimpleFeed.Providers
+Error	lib/simplefeed/providers/redis/driver.rb	/^        class Error < StandardError;$/;"	c	class:SimpleFeed.Providers.Driver
+Event	lib/simplefeed/event.rb	/^  class Event$/;"	c	class:SimpleFeed
+Feed	lib/simplefeed/feed.rb	/^  class Feed$/;"	c	class:SimpleFeed
+Formatter	lib/simplefeed/dsl/formatter.rb	/^    module Formatter$/;"	m	class:SimpleFeed.DSL
+Hash	lib/simplefeed/providers/hash.rb	/^    module Hash$/;"	m	class:SimpleFeed.Providers
+Key	lib/simplefeed/providers/key.rb	/^    class Key$/;"	c	class:SimpleFeed.Providers
+LoggingRedis	lib/simplefeed/providers/redis/driver.rb	/^        class LoggingRedis < Struct.new(:redis)$/;"	c	class:SimpleFeed.Providers.Driver
+MockRedis	lib/simplefeed/providers/redis/driver.rb	/^        class MockRedis$/;"	c	class:SimpleFeed.Providers
+MultiUser	lib/simplefeed/activity/multi_user.rb	/^    class MultiUser < Base$/;"	c	class:SimpleFeed.Activity
+NotImplementedError	lib/simplefeed/providers/base/provider.rb	/^    class NotImplementedError < ::StandardError$/;"	c	class:SimpleFeed.Providers
+Provider	lib/simplefeed/providers/base/provider.rb	/^      class Provider$/;"	c	class:SimpleFeed.Providers.Base
+Provider	lib/simplefeed/providers/redis/provider.rb	/^      class Provider < ::SimpleFeed::Providers::Base::Provider$/;"	c	class:SimpleFeed.Providers.Redis
+Providers	lib/simplefeed/providers.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/base/provider.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/hash.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/key.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/proxy.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/redis.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/redis/driver.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/redis/provider.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Providers	lib/simplefeed/providers/redis/stats.rb	/^  module Providers$/;"	m	class:SimpleFeed
+Proxy	lib/simplefeed/providers/proxy.rb	/^    class Proxy$/;"	c	class:SimpleFeed.Providers
+Redis	lib/simplefeed/providers/redis.rb	/^    module Redis$/;"	m	class:SimpleFeed.Providers
+Redis	lib/simplefeed/providers/redis/driver.rb	/^    module Redis$/;"	m	class:SimpleFeed.Providers
+Redis	lib/simplefeed/providers/redis/provider.rb	/^    module Redis$/;"	m	class:SimpleFeed.Providers
+Redis	lib/simplefeed/providers/redis/stats.rb	/^    module Redis$/;"	m	class:SimpleFeed.Providers
+Response	lib/simplefeed/response.rb	/^  class Response$/;"	c	class:SimpleFeed
+SimpleFeed	lib/simplefeed.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/activity/base.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/activity/multi_user.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/activity/single_user.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/dsl.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/dsl/activities.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/dsl/formatter.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/event.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/feed.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/base/provider.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/hash.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/key.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/proxy.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/redis.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/redis/driver.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/redis/provider.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/providers/redis/stats.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/response.rb	/^module SimpleFeed$/;"	m
+SimpleFeed	lib/simplefeed/version.rb	/^module SimpleFeed$/;"	m
+SingleUser	lib/simplefeed/activity/single_user.rb	/^    class SingleUser < ::SimpleFeed::Activity::Base$/;"	c	class:SimpleFeed.Activity
+Stats	lib/simplefeed/providers/redis/stats.rb	/^      class Stats$/;"	c	class:SimpleFeed.Providers.Redis
+_puts	lib/simplefeed/dsl/formatter.rb	/^    def _puts(*args)$/;"	f
+activity	lib/simplefeed/feed.rb	/^    def activity(one_or_more_users)$/;"	f	class:SimpleFeed.Feed
+batch	lib/simplefeed/providers/base/provider.rb	/^        def batch(user_ids)$/;"	f	class:SimpleFeed.Providers.Base.Provider
+batch_multi	lib/simplefeed/providers/redis/provider.rb	/^        def batch_multi(user_ids)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+batch_pipelined	lib/simplefeed/providers/redis/provider.rb	/^        def batch_pipelined(user_ids)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+batch_pipelined_multi	lib/simplefeed/providers/redis/provider.rb	/^        def batch_pipelined_multi(user_ids)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+batch_size	lib/simplefeed/providers/base/provider.rb	/^        def batch_size$/;"	f	class:SimpleFeed.Providers.Base.Provider
+boot_info	lib/simplefeed/providers/redis/stats.rb	/^        def boot_info$/;"	f	class:SimpleFeed.Providers.Redis.Stats
+box_config	lib/simplefeed/dsl/formatter.rb	/^    def box_config(**opts)$/;"	f
+class_attributes	lib/simplefeed.rb	/^  def self.class_attributes(klass)$/;"	F
+class_attrs	lib/simplefeed/feed.rb	/^    def class_attrs$/;"	f	class:SimpleFeed.Feed
+class_to_registry	lib/simplefeed/providers/base/provider.rb	/^        def self.class_to_registry(klass)$/;"	F	class:SimpleFeed.Providers.Base.Provider
+color_dump	lib/simplefeed/dsl/formatter.rb	/^      def color_dump(this_activity = activity)$/;"	f	class:SimpleFeed.DSL.Formatter
+configure	lib/simplefeed/feed.rb	/^    def configure(hash = {})$/;"	f	class:SimpleFeed.Feed
+data	lib/simplefeed/providers/key.rb	/^      def data$/;"	f	class:SimpleFeed.Providers
+data_id	lib/simplefeed/providers/key.rb	/^      def data_id$/;"	f	class:SimpleFeed.Providers
+debug	lib/simplefeed/providers/redis/driver.rb	/^      def self.debug?$/;"	F	class:SimpleFeed.Providers.Redis
+debug?	lib/simplefeed/dsl.rb	/^      def debug?$/;"	f	class:SimpleFeed.DSL
+debug?	lib/simplefeed/providers/redis/driver.rb	/^        def debug?$/;"	f	class:SimpleFeed.Providers
+define	lib/simplefeed.rb	/^    def define(name, **options)$/;"	f	class:SimpleFeed
+define_provider_methods	lib/simplefeed/providers.rb	/^    def self.define_provider_methods(klass, prefix = nil, &block)$/;"	F	class:SimpleFeed.Providers
+delete	lib/simplefeed/providers/redis/provider.rb	/^        def delete(user_ids:, value:, **)$/;"	f	class:SimpleFeed.Providers.Redis.Provider
+delete_if	lib/simplefeed/providers/redis/provider.rb	/^        def delete_if(user_ids:)$/;"	f	class:SimpleFeed.Providers.Redis.Provider
+destringify	lib/simplefeed/providers/redis/stats.rb	/^          def destringify(hash)$/;"	f	class:SimpleFeed.Providers.Redis.Stats
+each	lib/simplefeed/activity/single_user.rb	/^      def each$/;"	f	class:SimpleFeed.Activity.SingleUser
+each	lib/simplefeed/response.rb	/^    def each(&block)$/;"	f	class:SimpleFeed.Response
+eql?	lib/simplefeed/event.rb	/^    def eql?(other)$/;"	f	class:SimpleFeed
+eql?	lib/simplefeed/feed.rb	/^    def eql?(other)$/;"	f	class:SimpleFeed.Feed
+event	lib/simplefeed/dsl.rb	/^    def event(value, at = Time.now)$/;"	f	class:SimpleFeed
+exec	lib/simplefeed/providers/redis/driver.rb	/^        def exec(redis_method, *args, **_opts, &block)$/;"	f	class:SimpleFeed.Providers
+feed_header	lib/simplefeed/dsl/formatter.rb	/^    def feed_header(feed, &block)$/;"	f
+fetch	lib/simplefeed/providers/redis/provider.rb	/^        def fetch(user_ids:, since: nil, reset_last_read: false)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+field	lib/simplefeed/dsl/formatter.rb	/^    def field(label, value, _sep = '')$/;"	f
+field_label	lib/simplefeed/dsl/formatter.rb	/^    def field_label(text)$/;"	f
+field_value	lib/simplefeed/dsl/formatter.rb	/^    def field_value(value)$/;"	f
+for	lib/simplefeed/response.rb	/^    def for(key_or_user_id, result = nil)$/;"	f	class:SimpleFeed.Response
+from	lib/simplefeed/providers/proxy.rb	/^      def self.from(definition)$/;"	F	class:SimpleFeed.Providers.Proxy
+get	lib/simplefeed.rb	/^    def get(name)$/;"	f	class:SimpleFeed
+get_users_last_read	lib/simplefeed/providers/redis/provider.rb	/^        def get_users_last_read(redis, key)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+has_user?	lib/simplefeed/response.rb	/^    def has_user?(user_id)$/;"	f	class:SimpleFeed.Response
+hash	lib/simplefeed/event.rb	/^    def hash$/;"	f	class:SimpleFeed
+header	lib/simplefeed/dsl/formatter.rb	/^    def header(*args, **opts)$/;"	f
+hr	lib/simplefeed/dsl/formatter.rb	/^    def hr$/;"	f
+hr_string	lib/simplefeed/dsl/formatter.rb	/^    def hr_string$/;"	f
+info	lib/simplefeed/providers/redis/stats.rb	/^        def info$/;"	f	class:SimpleFeed.Providers.Redis.Stats
+inherited	lib/simplefeed/providers/base/provider.rb	/^        def self.inherited(klass)$/;"	F	class:SimpleFeed.Providers.Base.Provider
+initialize	lib/simplefeed/activity/base.rb	/^      def initialize(feed:)$/;"	f	class:SimpleFeed.Activity.Base
+initialize	lib/simplefeed/activity/multi_user.rb	/^      def initialize(feed:, user_ids:)$/;"	f	class:SimpleFeed.Activity.MultiUser
+initialize	lib/simplefeed/activity/single_user.rb	/^      def initialize(user_id:, feed:)$/;"	f	class:SimpleFeed.Activity.SingleUser
+initialize	lib/simplefeed/dsl/activities.rb	/^      def initialize(activity, **opts)$/;"	f	class:SimpleFeed.DSL.Activities
+initialize	lib/simplefeed/event.rb	/^    def initialize(*args, value: nil, at: Time.now)$/;"	f	class:SimpleFeed
+initialize	lib/simplefeed/feed.rb	/^    def initialize(name)$/;"	f	class:SimpleFeed.Feed
+initialize	lib/simplefeed/providers/base/provider.rb	/^      def initialize(klass, method)$/;"	f	class:SimpleFeed.Providers.NotImplementedError
+initialize	lib/simplefeed/providers/key.rb	/^      def initialize(consumer,$/;"	f	class:SimpleFeed.Providers
+initialize	lib/simplefeed/providers/proxy.rb	/^      def initialize(provider_or_klass, *args, **options)$/;"	f	class:SimpleFeed.Providers.Proxy
+initialize	lib/simplefeed/providers/redis/driver.rb	/^        def initialize(opts)$/;"	f	class:SimpleFeed.Providers
+initialize	lib/simplefeed/providers/redis/stats.rb	/^        def initialize(redis)$/;"	f	class:SimpleFeed.Providers.Redis.Stats
+initialize	lib/simplefeed/response.rb	/^    def initialize(data = {})$/;"	f	class:SimpleFeed.Response
+inspect	lib/simplefeed/event.rb	/^    def inspect$/;"	f	class:SimpleFeed
+inspect	lib/simplefeed/providers/key.rb	/^      def inspect$/;"	f	class:SimpleFeed.Providers
+key	lib/simplefeed/feed.rb	/^    def key(user_id)$/;"	f	class:SimpleFeed.Feed
+key	lib/simplefeed/providers/base/provider.rb	/^        def key(user_id)$/;"	f	class:SimpleFeed.Providers.Base.Provider
+key_params	lib/simplefeed/providers/key.rb	/^      def key_params$/;"	f	class:SimpleFeed.Providers
+key_template	lib/simplefeed/feed.rb	/^    def key_template$/;"	f	class:SimpleFeed.Feed
+keys	lib/simplefeed/providers/key.rb	/^      def keys$/;"	f	class:SimpleFeed.Providers
+last_read	lib/simplefeed/providers/redis/provider.rb	/^        def last_read(user_ids:)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+load_boot_stats!	lib/simplefeed/providers/redis/stats.rb	/^          def load_boot_stats!$/;"	f	class:SimpleFeed.Providers.Redis.Stats
+meta	lib/simplefeed/providers/key.rb	/^      def meta$/;"	f	class:SimpleFeed.Providers
+meta_id	lib/simplefeed/providers/key.rb	/^      def meta_id$/;"	f	class:SimpleFeed.Providers
+method_missing	lib/simplefeed.rb	/^    def method_missing(name, *args, **opts, &block)$/;"	f	class:SimpleFeed
+method_missing	lib/simplefeed/providers/proxy.rb	/^        def method_missing(name, *args, &block)$/;"	f	class:SimpleFeed.Providers
+method_missing	lib/simplefeed/providers/proxy.rb	/^        def method_missing(name, *args, **opts, &block)$/;"	f	class:SimpleFeed.Providers
+method_missing	lib/simplefeed/providers/redis/driver.rb	/^          def method_missing(m, *args, &block)$/;"	f	class:SimpleFeed.Providers.Driver
+method_missing	lib/simplefeed/providers/redis/driver.rb	/^          def method_missing(name, *args, **_opts, &block)$/;"	f	class:SimpleFeed.Providers.MockRedis
+obscure_value	lib/simplefeed/providers/key.rb	/^      def obscure_value(id)$/;"	f	class:SimpleFeed.Providers
+on_error	lib/simplefeed/providers/redis/driver.rb	/^        def on_error(e)$/;"	f	class:SimpleFeed.Providers
+output	lib/simplefeed/dsl/formatter.rb	/^    def output(*args, **opts, &block)$/;"	f
+paginate	lib/simplefeed/providers/redis/provider.rb	/^        def paginate(user_ids:, page:,$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+paginated_events	lib/simplefeed/providers/redis/provider.rb	/^        def paginated_events(page, per_page, redis, key)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+print_debug_info	lib/simplefeed/dsl/activities.rb	/^      def print_debug_info(method, **opts)$/;"	f	class:SimpleFeed.DSL.Activities
+print_last_read_separator	lib/simplefeed/dsl/formatter.rb	/^      def print_last_read_separator(lr)$/;"	f	class:SimpleFeed.DSL
+provider	lib/simplefeed.rb	/^    def provider(provider_name, *args, **opts, &block)$/;"	f	class:SimpleFeed
+provider	lib/simplefeed/feed.rb	/^    def provider$/;"	f	class:SimpleFeed.Feed
+provider=	lib/simplefeed/feed.rb	/^    def provider=(definition)$/;"	f	class:SimpleFeed.Feed
+provider_type	lib/simplefeed/feed.rb	/^    def provider_type$/;"	f	class:SimpleFeed.Feed
+register	lib/simplefeed/providers.rb	/^    def self.register(provider_name, provider_class)$/;"	F	class:SimpleFeed.Providers
+registry	lib/simplefeed/providers.rb	/^    def self.registry$/;"	F	class:SimpleFeed.Providers
+render	lib/simplefeed/providers/key.rb	/^      def render(template)$/;"	f	class:SimpleFeed.Providers
+reset_last_read	lib/simplefeed/providers/redis/provider.rb	/^        def reset_last_read(user_ids:, at: Time.now)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+reset_last_read_value	lib/simplefeed/providers/base/provider.rb	/^        def reset_last_read_value(user_ids:, at: nil)$/;"	f	class:SimpleFeed.Providers.Base.Provider
+reset_users_last_read	lib/simplefeed/providers/redis/provider.rb	/^        def reset_users_last_read(redis, key, time = nil)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+result	lib/simplefeed/response.rb	/^    def result(user_id = nil)$/;"	f	class:SimpleFeed.Response
+rot13	lib/simplefeed/providers/key.rb	/^        def rot13(value)$/;"	f	class:SimpleFeed.Providers.Key
+store	lib/simplefeed/providers/redis/provider.rb	/^        def store(user_ids:, value:, at: Time.now, overwrite: true)$/;"	f	class:SimpleFeed.Providers.Redis.Provider
+symbolize	lib/simplefeed.rb	/^  def self.symbolize!(hash)$/;"	F
+tap	lib/simplefeed/providers/base/provider.rb	/^        def tap(value)$/;"	f	class:SimpleFeed.Providers.Base.Provider
+time	lib/simplefeed/event.rb	/^    def time$/;"	f	class:SimpleFeed
+to_array	lib/simplefeed/providers/base/provider.rb	/^        def to_array(user_ids)$/;"	f	class:SimpleFeed.Providers.Base.Provider
+to_color_s	lib/simplefeed/event.rb	/^    def to_color_s$/;"	f	class:SimpleFeed
+to_h	lib/simplefeed/event.rb	/^    def to_h$/;"	f	class:SimpleFeed
+to_h	lib/simplefeed/response.rb	/^    def to_h$/;"	f	class:SimpleFeed.Response
+to_json	lib/simplefeed/event.rb	/^    def to_json(*_args)$/;"	f	class:SimpleFeed
+to_s	lib/simplefeed/event.rb	/^    def to_s$/;"	f	class:SimpleFeed
+to_s	lib/simplefeed/providers/key.rb	/^      def to_s$/;"	f	class:SimpleFeed.Providers
+to_yaml	lib/simplefeed/event.rb	/^    def to_yaml$/;"	f	class:SimpleFeed
+total_count	lib/simplefeed/providers/redis/provider.rb	/^        def total_count(user_ids:)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+total_memory_bytes	lib/simplefeed/providers/redis/provider.rb	/^        def total_memory_bytes$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+total_users	lib/simplefeed/providers/redis/provider.rb	/^        def total_users$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+transform	lib/simplefeed/response.rb	/^    def transform$/;"	f	class:SimpleFeed.Response
+transform_response	lib/simplefeed/providers/redis/provider.rb	/^        def transform_response(user_id = nil, result)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+transformable_type?	lib/simplefeed/providers/redis/provider.rb	/^        def transformable_type?(value)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+unread_count	lib/simplefeed/providers/redis/provider.rb	/^        def unread_count(user_ids:)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+user_activity	lib/simplefeed/feed.rb	/^    def user_activity(user_id)$/;"	f	class:SimpleFeed.Feed
+user_count	lib/simplefeed/response.rb	/^    def user_count$/;"	f	class:SimpleFeed.Response
+user_ids	lib/simplefeed/response.rb	/^    def user_ids$/;"	f	class:SimpleFeed.Response
+users_activity	lib/simplefeed/feed.rb	/^    def users_activity(user_ids)$/;"	f	class:SimpleFeed.Feed
+validate!	lib/simplefeed/event.rb	/^    def validate!$/;"	f	class:SimpleFeed
+width	lib/simplefeed/dsl/formatter.rb	/^    def width$/;"	f
+wipe	lib/simplefeed/providers/redis/provider.rb	/^        def wipe(user_ids:)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+with_activity	lib/simplefeed/dsl.rb	/^    def with_activity(activity, **opts, &block)$/;"	f	class:SimpleFeed
+with_debug	lib/simplefeed/providers/redis/driver.rb	/^      def self.with_debug$/;"	F	class:SimpleFeed.Providers.Redis
+with_multi	lib/simplefeed/providers/redis/driver.rb	/^        def with_multi$/;"	f	class:SimpleFeed.Providers
+with_pipelined	lib/simplefeed/providers/redis/driver.rb	/^        def with_pipelined(&block)$/;"	f	class:SimpleFeed.Providers
+with_redis	lib/simplefeed/providers/redis/driver.rb	/^        def with_redis$/;"	f	class:SimpleFeed.Providers
+with_response	lib/simplefeed/providers/base/provider.rb	/^        def with_response(response = nil)$/;"	f	class:SimpleFeed.Providers.Base.Provider
+with_response_batched	lib/simplefeed/providers/base/provider.rb	/^        def with_response_batched(user_ids, external_response = nil)$/;"	f	class:SimpleFeed.Providers.Base.Provider
+with_response_multi	lib/simplefeed/providers/redis/provider.rb	/^        def with_response_multi(user_ids, response = nil)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+with_response_pipelined	lib/simplefeed/providers/redis/provider.rb	/^        def with_response_pipelined(user_ids, response = nil)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
+with_retries	lib/simplefeed/providers/redis/driver.rb	/^        def with_retries(tries = 3)$/;"	f	class:SimpleFeed.Providers
+with_stats	lib/simplefeed/providers/redis/provider.rb	/^        def with_stats(operation)$/;"	f	class:SimpleFeed.Providers.Redis.Provider.delete_if
