@@ -57,7 +57,12 @@ module SimpleFeed
               end
 
               this_last_event_at = evt.at # float
-              output "[%2d] %16s %s\n", idx, evt.time.strftime(TIME_FORMAT).blue.bold, evt.value
+
+              if block_given?
+                yield idx, evt, self
+              else
+                output "[%2d] %16s %s\n", idx, (evt.time&.strftime(TIME_FORMAT) || evt.at.to_i.to_s).blue&.bold, evt.value
+              end
               if idx == this_events_count - 1 && this_last_read < evt.at
                 print_last_read_separator(this_last_read)
               end
