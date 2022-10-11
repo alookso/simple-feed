@@ -41,9 +41,24 @@ module SimpleFeed
           end
         end
 
-        def delete(user_ids:, value:, **)
-          with_response_pipelined(user_ids) do |redis, key|
-            redis.zrem(key.data, value)
+        def delete(user_ids:, value:, **opts)
+          at = opts[:at].to_f if opts[:at]
+
+          valid_user_ids = user_ids
+          if at
+            valid_user_ids = with_response_pipelined(user_ids) do |redis, key|
+              redis.zrevrangebyscore(key.data, at, at)
+            end.select do |_, values|
+              values && values.any? && value == values[0]
+            end.map(&:first)
+          end
+
+          with_response_pipelined(valid_user_ids) do |redis, key|
+            if at
+              redis.zremrangebyscore(key.data, at, at)
+            else
+              redis.zrem(key.data, value)
+            end
           end
         end
 
